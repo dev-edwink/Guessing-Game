@@ -2,7 +2,7 @@ const express = require('express');
 const http = require('http');
 const socketIo = require('socket.io');
 const mongoose = require('mongoose');
-const GameSession = require('./models/GameSession');
+const GameSession = require('./models/gameSession');
 const connectDB = require('./config/db');
 const { connect } = require('http2');
 
